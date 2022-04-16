@@ -19,3 +19,4 @@
 ![6697b7ce4f96d4a965c1e2fbd81049f](https://user-images.githubusercontent.com/86092949/163334497-95ea3082-b8f2-433a-b195-2c46e01c899b.png)
 
 可以看到450轮之前得分较稳定，之后迅速下降，主要原因目前推测为buffer size太小，导致之后overfit了，前期的经验无法保存
+![6697b7ce4f96d4a965c1e2fbd81049f](https://github.com/AII6/D3QN__Airstriker-Genesis/blob/main/petal_20220416_221652.gif)
