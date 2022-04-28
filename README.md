@@ -22,7 +22,7 @@
 
 ![6697b7ce4f96d4a965c1e2fbd81049p](https://github.com/AII6/D3QN__Airstriker-Genesis/blob/main/petal_20220416_221652.gif)
 
-而对于PPO算法，按照原论文的方法，用了clipping的目标函数，以及截断版本的advantage，参数设置和论文后面测试atari的部分参数相同
+而对于PPO算法，按照原论文的方法，用了clipping的目标函数，以及截断版本的advantage，参数设置和论文后面测试atari的部分参数相同，论文已上传
 先进行了PPO算法正确性的试验，用的是CartPole游戏，代码和保存的训练好的模型在文件里可找到，以下是训练的得分曲线
 
 <img src="https://github.com/AII6/D3QN-PPO__Airstriker-Genesis/blob/main/image.png" width="400"  alt="得分曲线"/><br/>
