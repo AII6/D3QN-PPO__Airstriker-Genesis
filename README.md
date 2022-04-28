@@ -31,3 +31,5 @@
 下面是仅利用生死信息进行奖励改造的Airstriker-Genesis游戏的PPO学习曲线，可以看到曲线是在波动中逐渐上升的，由于免费版时长有限没有一直训练下去，但可以看到在显存有限的情况下PPO比D3QN要有很大的优势
 
 <img src="https://github.com/AII6/D3QN-PPO__Airstriker-Genesis/blob/main/ppo_one.png" width="400"  alt="得分曲线"/><br/>
+
+<img src="https://github.com/AII6/D3QN-PPO__Airstriker-Genesis/blob/main/petal_20220428_162438.gif"  alt="得分曲线"/><br/>
