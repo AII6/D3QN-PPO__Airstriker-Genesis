@@ -1,7 +1,7 @@
-# D3QN__Airstriker-Genesis
-使用D3QN算法对Atari游戏进行学习，加入了buffer，soft update，epsilon decay
+# D3QN&PPO__Airstriker-Genesis
+使用D3QN算法和PPO算法对Atari游戏进行学习，其中D3QN加入了buffer，soft update，epsilon decay
 
-由于学生党无实验室只能用免费版Colab，buffer size设定在6000，再大就不够了
+由于学生党无实验室只能用免费版Colab，D3QN的buffer size设定在6000，再大就不够了
 
 因此本程序无法对游戏有足够的记忆，在训练到一定水平后再训练会出现overfit，记忆较短
 
@@ -20,4 +20,10 @@
 
 可以看到450轮之前得分较稳定，之后迅速下降，主要原因目前推测为buffer size太小，导致之后overfit了，前期的经验无法保存
 
-![6697b7ce4f96d4a965c1e2fbd81049f](https://github.com/AII6/D3QN__Airstriker-Genesis/blob/main/petal_20220416_221652.gif)
+![6697b7ce4f96d4a965c1e2fbd81049p](https://github.com/AII6/D3QN__Airstriker-Genesis/blob/main/petal_20220416_221652.gif)
+
+而对于PPO算法，按照原论文的方法，用了clipping的目标函数，以及截断版本的advantage，参数设置和论文后面测试atari的部分参数相同
+先进行了PPO算法正确性的试验，用的是CartPole游戏，代码和保存的训练好的模型在文件里可找到，以下是训练的得分曲线
+
+<img src="https://github.com/AII6/D3QN-PPO__Airstriker-Genesis/blob/main/image.png" width="400"  alt="得分曲线"/><br/>
+
