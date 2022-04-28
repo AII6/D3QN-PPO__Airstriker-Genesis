@@ -28,3 +28,6 @@
 
 <img src="https://github.com/AII6/D3QN-PPO__Airstriker-Genesis/blob/main/image.png" width="400"  alt="得分曲线"/><br/>
 
+下面是仅利用生死信息进行奖励改造的PPO学习曲线，可以看到曲线是在波动中逐渐上升的，由于免费版时长有限没有一直训练下去
+
+<img src="https://github.com/AII6/D3QN-PPO__Airstriker-Genesis/blob/main/ppo_one.png" width="400"  alt="得分曲线"/><br/>
